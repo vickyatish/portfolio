@@ -1,0 +1,21 @@
+.contact-section {
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .contact-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-section li {
+    margin: 0.5rem 0;
+  }
+  
+  .contact-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+   .contact-section a:hover {
+     text-decoration: underline;
+   }

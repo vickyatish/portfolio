@@ -1,0 +1,24 @@
+.portfolio-header {
+    background-color: #333;
+    padding: 1rem 0;
+    position: sticky; /* Makes header stick to top */
+    top: 0;
+    z-index: 10; /* Ensures header stays above other content */
+  }
+  
+  .portfolio-header nav {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .portfolio-header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .portfolio-header nav a:hover {
+    color: #00bcd4; /* Example hover color */
+  }

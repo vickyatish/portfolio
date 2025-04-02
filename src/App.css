@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* src/App.css */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+    color: #333;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .App {
+    /* Can add app-wide container styles if needed */
+    /* Example: max-width: 1200px; margin: 0 auto; */
   }
-  to {
-    transform: rotate(360deg);
+  
+  main {
+      /* Ensures main content starts below sticky header if needed */
+      /* padding-top: 60px; Adjust based on your header height */
   }
-}
+  
+  h1, h2, h3 {
+    color: #333; /* Consistent heading color */
+  }
+  
+  /* Common styling for portfolio sections */
+  .portfolio-section {
+    padding: 3rem 1rem; /* Vertical and horizontal padding */
+    max-width: 960px; /* Limit content width for readability */
+    margin: 0 auto;   /* Center the sections */
+    border-bottom: 1px solid #eee; /* Optional separator line */
+  }
+  
+   .portfolio-section:last-of-type {
+       border-bottom: none; /* No border on the last section */
+   }
+  
+  .portfolio-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Optional: Basic styles for global links */
+  a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Optional: Smooth scrolling for anchor links */
+  html {
+      scroll-behavior: smooth;
+  }
